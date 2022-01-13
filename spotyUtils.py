@@ -2,8 +2,8 @@ import requests
 import json
 
 def autentication():
-    CLIENT_ID = 'dcfe12fe9a444597983372226fb6b9f6'
-    CLIENT_SECRET = '58cc390d911b402f9b9644ccbc25327c'
+    CLIENT_ID = 'XXXXXXXXXXXXXXXXXXXXXXXXX'
+    CLIENT_SECRET = 'XXXXXXXXXXXXXXXXXXXXXX'
     AUTH_URL = 'https://accounts.spotify.com/api/token'
 
     auth_response = requests.post(AUTH_URL, {
