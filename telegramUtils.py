@@ -3,7 +3,7 @@ import plotUtils
 import requests
 import json
 
-bot_token = 'bot5071059441:AAFPrg1449XXZwQSIoDwnPBxcUUw9irMAiQ'
+bot_token = 'xxxxxxxxxxxxxxxxxxxxxxxx'
 
 UPDATES_URL = 'https://api.telegram.org/'+bot_token+'/getUpdates'
 SEND_MESSAGE_URL = 'https://api.telegram.org/'+bot_token+'/sendMessage'
